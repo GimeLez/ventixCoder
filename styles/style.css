@@ -22,7 +22,7 @@ header {
   background-color: #fff;
   color: #0b2e57;
   padding: 0.6em;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Esto de acá agrega la sombra divisoria */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Esto de acá agrega la sombra divisoria. */
   z-index: 1000;
   transition: background-color 0.3s, padding 0.3s;
 }
