@@ -234,6 +234,21 @@ footer a {
   text-align: left;
 }
 
+.contenido-superpuesto-contacto {
+  position: relative;
+  margin-left: 500px;
+  margin-right: 500px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  margin-top: 410px;
+}
+
+.contenido-superpuesto-contacto h2 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
 .contenido-superpuesto-servicios {
   position: relative;
   margin-left: 500px;
@@ -520,7 +535,7 @@ footer{
 }
 
 
-@media screen and (min-width: 460px) and (max-width: 767px) {
+@media screen and (min-width: 420px) and (max-width: 767px) {
   .imagen-principal img {
     height: 100vh;
   }
@@ -537,6 +552,11 @@ footer{
   .button-style {
     width: 15em;
     height: 3.5em;
+  }
+
+
+  .contenido-superpuesto-contacto p{
+    font-size: 14px;
   }
 
   .card-container {
@@ -588,10 +608,24 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+
+  .contenido-superpuesto-contacto {
+    margin-left: 32%;
+    margin-right: 10%;
+    margin-top: 70%;
+  }
+  .contenido-superpuesto-contacto h2 {
+    font-size: 1.5em;
+    margin-left: 24%;
+    text-align: left;
+    margin-right: 15%;
+  }
+
   .contenido-superpuesto-servicios {
     margin-left: 25%;
     margin-right: 10%;
-    margin-top: 50%;
+    margin-top: 70%;
   }
   .contenido-superpuesto-servicios h2 {
     font-size: 1.5em;
@@ -705,6 +739,26 @@ footer{
   margin-bottom: 10px;
   margin-top: 30px;
 }
+
+textarea{
+  width: 22em;
+} 
+
+input{
+  width: 22em;
+}
+
+.contacto-section h2 {
+  font-size: 25px;
+}
+
+
+.imagenContacto-backgroundImage {
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1399px) {
@@ -742,6 +796,14 @@ footer{
   }
   .imagen-nosotros1 {
     display: none;
+  }
+
+  .contenido-superpuesto-contacto {
+    position: relative;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: white;
+    margin-top: 410px;
   }
 
   .contenido-superpuesto-servicios {
@@ -782,6 +844,13 @@ footer{
   .img-customer-chica {
     display: none;
   }
+  
+  .contenido-superpuesto-contacto{
+    margin-left: 30%;
+    margin-right: 25%;
+    margin-top: 35%;
+  }
+
   .contenido-superpuesto-servicios{
     margin-left: 30%;
     margin-right: 25%;
