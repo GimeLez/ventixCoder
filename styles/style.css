@@ -22,7 +22,8 @@ header {
   background-color: #fff;
   color: #0b2e57;
   padding: 0.6em;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Esto de acá agrega la sombra divisoria. */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  /* Esto de acá agrega la sombra divisoria. */
   z-index: 1000;
   transition: background-color 0.3s, padding 0.3s;
 }
@@ -40,11 +41,13 @@ header {
   list-style-type: none;
   align-items: flex-end;
 }
+
 .nav-links li {
   display: inline;
   margin-right: 20px;
   position: relative;
 }
+
 .nav-links li a {
   color: #0b2e57;
   text-decoration: none;
@@ -88,9 +91,11 @@ header {
 .contenido-superpuesto p {
   font-size: 1.5em;
 }
+
 section {
   margin-top: 4em;
 }
+
 .card-section {
   background-color: #f9f9f9;
   background-image: url(../imagenes/lineaspuntos.png);
@@ -100,9 +105,11 @@ section {
   padding: 50px 0;
   text-align: center;
 }
+
 .card-header {
   margin-bottom: 1.87em;
 }
+
 .card-header h2 {
   color: #0b2e57;
   font-family: "Poppins";
@@ -111,6 +118,7 @@ section {
   font-weight: 700;
   line-height: normal;
 }
+
 .card-header p {
   color: #01affb;
   text-align: center;
@@ -120,10 +128,12 @@ section {
   font-weight: 500;
   line-height: normal;
 }
+
 .card-container {
   display: flex;
   justify-content: space-around;
 }
+
 .card {
   background-color: #fff;
   width: 315.658px;
@@ -143,6 +153,7 @@ section {
   font-weight: 700;
   line-height: normal;
 }
+
 .card p {
   margin-top: 50px;
   color: #0b2e57;
@@ -153,9 +164,11 @@ section {
   font-weight: 300;
   line-height: normal;
 }
+
 .svg-position {
   margin-top: 70px;
 }
+
 .nosotros-section-index {
   background-color: #0b2e57;
   height: 48.75em;
@@ -163,6 +176,7 @@ section {
   flex-shrink: 0;
   align-items: center;
 }
+
 .nosotros-section-index h2 {
   color: #fff;
   text-align: center;
@@ -279,9 +293,11 @@ footer a {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
 .texto-ubicacion-nosotros {
   width: 60%;
 }
+
 .nosotros-section h2 {
   color: #0b2e57;
   text-align: center;
@@ -311,9 +327,11 @@ footer a {
   padding: 50px 0;
   text-align: center;
 }
+
 .valores-header {
   margin-bottom: 1.87em;
 }
+
 .valores-header h2 {
   color: #fff;
   font-family: "Poppins";
@@ -322,6 +340,7 @@ footer a {
   font-weight: 700;
   line-height: normal;
 }
+
 .valores-header p {
   color: #fff;
   text-align: center;
@@ -331,6 +350,7 @@ footer a {
   font-weight: 300;
   line-height: normal;
 }
+
 .card-valores {
   background-color: #fff;
   width: 19.875rem;
@@ -343,9 +363,11 @@ footer a {
   margin-top: 120px;
   color: #0b2e57;
 }
+
 .co-founder-section {
   text-align: center;
 }
+
 .imagenFran {
   background-image: url(../imagenes/FranCirculos.png);
   padding: 50px 0;
@@ -384,6 +406,7 @@ footer a {
   display: flex;
   justify-content: right;
 }
+
 .flex-container {
   margin-top: 10px;
   display: flex;
@@ -391,6 +414,7 @@ footer a {
   padding-bottom: 20px;
   padding-right: 90px;
 }
+
 .flex-container h2 {
   color: #fff;
   text-align: center;
@@ -400,6 +424,7 @@ footer a {
   font-weight: 500;
   line-height: normal;
 }
+
 .flex-container h4 {
   color: #fff;
   text-align: center;
@@ -408,6 +433,7 @@ footer a {
   font-weight: 500;
   line-height: normal;
 }
+
 .flex-container p {
   color: #fff;
   font-family: Poppins;
@@ -424,6 +450,7 @@ footer a {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
 .imagenServicios-backgroundImage {
   position: relative;
   width: 100%;
@@ -435,9 +462,11 @@ footer a {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
 .icono-center {
   text-align: center;
 }
+
 .imagenContacto-backgroundImage {
   position: relative;
   width: 100%;
@@ -449,15 +478,18 @@ footer a {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
 .icono-center {
   text-align: center;
 }
+
 .contacto-section {
   background-color: #01affb;
   background-image: url(../imagenes/lineasBlancasimg.png);
   padding: 50px 0;
   text-align: center;
 }
+
 .contacto-section h2 {
   color: #fff;
   font-family: "Poppins";
@@ -466,6 +498,7 @@ footer a {
   font-weight: 700;
   line-height: normal;
 }
+
 input {
   width: 30em;
   margin-top: 20px;
@@ -480,6 +513,7 @@ input {
   font-weight: 300;
   line-height: normal;
 }
+
 textarea {
   width: 60em;
   margin-top: 30px;
@@ -494,6 +528,7 @@ textarea {
   font-weight: 300;
   line-height: normal;
 }
+
 .button-style {
   width: 20em;
   height: 3.5em;
@@ -518,6 +553,7 @@ textarea {
 .icono-container {
   margin-right: 120px;
 }
+
 .contenedor {
   margin-left: 25px;
 }
@@ -527,9 +563,10 @@ textarea {
   margin-top: 200px;
 }
 
-footer{
+footer {
   margin-top: 3%;
 }
+
 .navbar-nav .nav-link.active {
   color: #00b2ff;
 }
@@ -539,23 +576,27 @@ footer{
   .imagen-principal img {
     height: 100vh;
   }
+
   .contenido-superpuesto {
     top: 74%;
   }
+
   .contenido-superpuesto h1 {
     font-size: 1.5em;
   }
+
   .contenido-superpuesto p {
     font-size: 1em;
     margin-top: 1em;
   }
+
   .button-style {
     width: 15em;
     height: 3.5em;
   }
 
 
-  .contenido-superpuesto-contacto p{
+  .contenido-superpuesto-contacto p {
     font-size: 14px;
   }
 
@@ -565,10 +606,12 @@ footer{
     align-items: center;
     flex-wrap: nowrap;
   }
+
   .card-section {
     background-image: url(../imagenes/backgroundCeluServicios.png);
     background-size: cover;
   }
+
   .nosotros-section-index p {
     padding-left: 40px;
     padding-right: 40px;
@@ -579,12 +622,15 @@ footer{
     margin-top: 100px;
     margin-bottom: 100px;
   }
+
   .imagen-nosotros1 {
     display: none;
   }
+
   .imagen-nosotros-tablet {
     display: none;
   }
+
   .contenedor {
     display: flex;
     gap: 10px;
@@ -615,6 +661,7 @@ footer{
     margin-right: 10%;
     margin-top: 70%;
   }
+
   .contenido-superpuesto-contacto h2 {
     font-size: 1.5em;
     margin-left: 24%;
@@ -627,6 +674,7 @@ footer{
     margin-right: 10%;
     margin-top: 70%;
   }
+
   .contenido-superpuesto-servicios h2 {
     font-size: 1.5em;
     margin-left: 24%;
@@ -637,6 +685,7 @@ footer{
   .Texto-Destokp-Tablet {
     display: none;
   }
+
   .Texto-Mobile {
     margin-left: 25%;
     margin-right: 15%;
@@ -648,11 +697,13 @@ footer{
     width: 100%;
     margin-top: 0;
   }
+
   .backgroundImage {
     background-image: none;
     background-color: #0b2e57;
     background-size: contain;
   }
+
   .flex-container {
     margin-top: 2%;
     display: flex;
@@ -664,22 +715,28 @@ footer{
     flex-wrap: nowrap;
     justify-content: center;
   }
+
   .icono-container {
     margin-right: 0%;
   }
+
   .flex-container p {
     margin-left: 5%;
     margin-right: 5%;
   }
+
   .card-header h2 {
     font-size: 1.5em;
   }
+
   .card-header p {
     font-size: 1em;
   }
+
   .card p {
     font-size: 0.8em;
   }
+
   .img-customer-chica {
     height: 40vh;
     width: 100%;
@@ -689,211 +746,235 @@ footer{
     background-position: center;
     margin-bottom: 10%;
   }
-  img, svg {
+
+  img,
+  svg {
     vertical-align: middle;
     height: 65px;
-}
+  }
 
-.nosotros-section {
-  padding: none;
-  height: none;
-  text-align: center;
-  background-image: none;
-  background-position: left;
-  background-repeat: no-repeat;
-  background-color: #0b2e57;
-   }
+  .nosotros-section {
+    padding: none;
+    height: none;
+    text-align: center;
+    background-image: none;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: #0b2e57;
+  }
 
-.imagenFran {
-  background-image: url(../imagenes/FranCirculos.png);
-  padding: 20px 0;
-  height: 20em;
-  text-align: center;
-  flex-shrink: 0;
-  align-items: center;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.texto-ubicacion-nosotros{
-  width: 100%;
-}
-.nosotros-section h2{
+  .imagenFran {
+    background-image: url(../imagenes/FranCirculos.png);
+    padding: 20px 0;
+    height: 20em;
+    text-align: center;
+    flex-shrink: 0;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .texto-ubicacion-nosotros {
+    width: 100%;
+  }
+
+  .nosotros-section h2 {
     color: #fff;
     font-size: 25px;
     margin-top: 10%;
-}
-.nosotros-section p{
-  font-size: 14px;
-  color: #fff;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-top: 10%;
-}
-
-.valores-header p{
- font-size: 12px;
- padding: 5px;
-} 
-.card-valores{
-  margin-bottom: 10px;
-  margin-top: 30px;
-}
-
-textarea{
-  width: 22em;
-} 
-
-input{
-  width: 22em;
-}
-
-.contacto-section h2 {
-  font-size: 25px;
-}
-
-
-.imagenContacto-backgroundImage {
-  height: 70vh;
-  background-position: center;
-  background-size: cover;
-
-
-}
-
-@media screen and (min-width: 768px) and (max-width: 1399px) {
-  .imagen-principal img {
-    height: 100vh;
-  }
-  .contenido-superpuesto h1 {
-    font-size: 2em;
-  }
-  .contenido-superpuesto p {
-    font-size: 1em;
-  }
-  .contenido-superpuesto {
-    top: 73%;
-  }
-  .button-style {
-    width: 15em;
-  }
-.card{
-  width: 30%;
-}
-  .card-container {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: nowrap;
   }
 
-  .card-container-tablet {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  .imagen-nosotros1 {
-    display: none;
+  .nosotros-section p {
+    font-size: 14px;
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10%;
   }
 
-  .contenido-superpuesto-contacto {
-    position: relative;
-    margin-left: 30%;
-    margin-right: 30%;
-    color: white;
-    margin-top: 410px;
+  .valores-header p {
+    font-size: 12px;
+    padding: 5px;
   }
 
-  .contenido-superpuesto-servicios {
-    position: relative;
-    margin-left: 30%;
-    margin-right: 30%;
-    color: white;
-    margin-top: 410px;
-  }
-  .imagenServicios-backgroundImage {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: right;
-    background-image: url(../imagenes/ServiciosPrinTablet4.png);
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  .ServiciosSalesforce {
-    width: 65%;
-    margin-top: 17%;
+  .card-valores {
+    margin-bottom: 10px;
+    margin-top: 30px;
   }
 
-  .flex-container {
-    padding-top: 2%;
-    padding-right: 10%;
-    display: flex;
-    margin-top: 0;
-    padding-bottom: 0;
-  }
-.flex-container h2{
-  display: none;
-}
-  .Texto-Mobile {
-    display: none;
-  }
-  .img-customer-chica {
-    display: none;
-  }
-  
-  .contenido-superpuesto-contacto{
-    margin-left: 30%;
-    margin-right: 25%;
-    margin-top: 35%;
+  textarea {
+    width: 22em;
   }
 
-  .contenido-superpuesto-servicios{
-    margin-left: 30%;
-    margin-right: 25%;
-    margin-top: 35%;
+  input {
+    width: 22em;
   }
 
-  .imagenContacto-backgroundImage{
-    height: 80vh;
+  .contacto-section h2 {
+    font-size: 25px;
+  }
+
+
+  .imagenContacto-backgroundImage {
+    height: 70vh;
     background-position: center;
     background-size: cover;
-  }
-  textarea{
-     width: 30em;
-} 
 
-.nosotros-section p{
-  margin-left: 0;
-  margin-top: 0;
-  padding-left: 0;
-  padding-right: 0;
-  font-size: 14px;
-}
-.texto-ubicacion-nosotros{
-  width: 50%;
-  transform: translate(97%, -33px);
-}
-.nosotros-section{
-  height: 36em;
-}
-}
 
-@media screen and (min-width: 1400px) {
-  .imagen-nosotros-tablet {
-    display: none;
   }
-  .Texto-Mobile {
-    display: none;
-  }
-  .img-customer-chica {
-    display: none;
-  }
-.flex-container h2{
-  display: none;
-}
-}
 
+  @media screen and (min-width: 768px) and (max-width: 1399px) {
+    .imagen-principal img {
+      height: 100vh;
+    }
+
+    .contenido-superpuesto h1 {
+      font-size: 2em;
+    }
+
+    .contenido-superpuesto p {
+      font-size: 1em;
+    }
+
+    .contenido-superpuesto {
+      top: 73%;
+    }
+
+    .button-style {
+      width: 15em;
+    }
+
+    .card {
+      width: 30%;
+    }
+
+    .card-container {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: nowrap;
+    }
+
+    .card-container-tablet {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .imagen-nosotros1 {
+      display: none;
+    }
+
+    .contenido-superpuesto-contacto {
+      position: relative;
+      margin-left: 30%;
+      margin-right: 30%;
+      color: white;
+      margin-top: 410px;
+    }
+
+    .contenido-superpuesto-servicios {
+      position: relative;
+      margin-left: 30%;
+      margin-right: 30%;
+      color: white;
+      margin-top: 410px;
+    }
+
+    .imagenServicios-backgroundImage {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: right;
+      background-image: url(../imagenes/ServiciosPrinTablet4.png);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .ServiciosSalesforce {
+      width: 65%;
+      margin-top: 17%;
+    }
+
+    .flex-container {
+      padding-top: 2%;
+      padding-right: 10%;
+      display: flex;
+      margin-top: 0;
+      padding-bottom: 0;
+    }
+
+    .flex-container h2 {
+      display: none;
+    }
+
+    .Texto-Mobile {
+      display: none;
+    }
+
+    .img-customer-chica {
+      display: none;
+    }
+
+    .contenido-superpuesto-contacto {
+      margin-left: 30%;
+      margin-right: 25%;
+      margin-top: 35%;
+    }
+
+    .contenido-superpuesto-servicios {
+      margin-left: 30%;
+      margin-right: 25%;
+      margin-top: 35%;
+    }
+
+    .imagenContacto-backgroundImage {
+      height: 80vh;
+      background-position: center;
+      background-size: cover;
+    }
+
+    textarea {
+      width: 30em;
+    }
+
+    .nosotros-section p {
+      margin-left: 0;
+      margin-top: 0;
+      padding-left: 0;
+      padding-right: 0;
+      font-size: 14px;
+    }
+
+    .texto-ubicacion-nosotros {
+      width: 50%;
+      transform: translate(97%, -33px);
+    }
+
+    .nosotros-section {
+      height: 36em;
+    }
+  }
+
+  @media screen and (min-width: 1400px) {
+    .imagen-nosotros-tablet {
+      display: none;
+    }
+
+    .Texto-Mobile {
+      display: none;
+    }
+
+    .img-customer-chica {
+      display: none;
+    }
+
+    .flex-container h2 {
+      display: none;
+    }
+  }
+}
