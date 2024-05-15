@@ -232,7 +232,7 @@ footer a {
   margin-left: auto;
 }
 
-.form-row select {
+select {
   width: 30em;
   margin-top: 20px;
   background: #fff;
@@ -570,20 +570,7 @@ footer {
 .navbar-nav .nav-link.active {
   color: #00b2ff;
 }
-select{
-  width: 30em;
-  margin-top: 20px;
-  background: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  padding: 12px;
-  border-radius: 5px;
-  color: #a6a6a6;
-  font-family: "Poppins";
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-}
+
 @media screen and (min-width: 280px) and (max-width: 767px) {
   .imagen-principal img {
     height: 100vh;
