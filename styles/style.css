@@ -570,7 +570,7 @@ footer {
 .navbar-nav .nav-link.active {
   color: #00b2ff;
 }
-.select{
+select{
   width: 30em;
   margin-top: 20px;
   background: #fff;
@@ -824,7 +824,7 @@ footer {
   .contacto-section h2 {
     font-size: 25px;
   }
-  .select{
+  select{
     width: 22em;
   }
 
