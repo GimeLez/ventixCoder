@@ -1,0 +1,40 @@
+$font-family: "Poppins", sans-serif;
+
+@mixin colores {
+    $color-primario: #0b2e57;
+    $color-secundario: #01affb;
+    $color-terciario: #00b2ff;
+    $color-blanco: #fff;
+    $color-negro: #333;
+    $color-texto-enlace: #0b2e57;
+    $color-texto-enlace-activo: #00b2ff;
+
+    body {
+      background-color: $color-blanco;
+      color: $color-negro;
+    }
+  
+    header {
+      background-color: $color-blanco;
+      color: $color-primario;
+    }
+  
+    nav {
+      background-color: $color-primario;
+      color: $color-blanco;
+  
+      .nav-link {
+        color: $color-texto-enlace;
+  
+        &.active {
+          color: $color-texto-enlace-activo;
+        }
+      }
+    }
+  
+    footer {
+      background-color: $color-terciario;
+      color: $color-blanco;
+    }
+  }
+  
