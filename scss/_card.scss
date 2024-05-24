@@ -13,7 +13,7 @@
   
     h2 {
       color: $color-primario;
-      font-family: "Poppins";
+      font-family: $font-family;
       font-size: 32px;
       font-style: normal;
       font-weight: 700;
@@ -23,7 +23,7 @@
     p {
       color: $color-secundario;
       text-align: center;
-      font-family: "Poppins";
+      font-family: $font-family;
       font-size: 20px;
       font-style: normal;
       font-weight: 500;
@@ -48,7 +48,7 @@
   
     h3 {
       color: $color-primario;
-      font-family: "Poppins";
+      font-family: $font-family;
       font-size: 20px;
       font-style: normal;
       font-weight: 700;
@@ -59,7 +59,7 @@
       margin-top: 50px;
       color: $color-primario;
       text-align: center;
-      font-family: "Poppins";
+      font-family: $font-family;
       font-size: 16px;
       font-style: normal;
       font-weight: 300;
@@ -68,5 +68,17 @@
   }
   .svg-position {
     margin-top: 70px;
+  }
+  .card-valores {
+    background-color: $color-blanco;
+    width: 19.875rem;
+    height: 12rem;
+    flex-shrink: 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.1);
+    margin-bottom: 20px;
+    margin-top: 120px;
+    color: $color-primario;
   }
   

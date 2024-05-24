@@ -1,8 +1,6 @@
 header {
   position: absolute;
   width: 100%;
-  background-color: #fff;
-  color: #0b2e57;
   padding: 0.6em;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   z-index: 1000;
@@ -15,6 +13,9 @@ header {
   align-items: end;
 }
 
+.navbar-nav .nav-link.active {
+  color: $color-secundario;
+}
 .nav-links {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -28,7 +29,7 @@ header {
     position: relative;
 
     a {
-      color: #0b2e57;
+      color: $color-primario;
       text-decoration: none;
       font-weight: bold;
     }

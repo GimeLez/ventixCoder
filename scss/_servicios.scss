@@ -1,0 +1,56 @@
+.contenido-superpuesto-contacto, .contenido-superpuesto-servicios {
+    position: relative;
+    margin-left: 500px;
+    margin-right: 500px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: $color-blanco;
+    margin-top: 410px;
+  
+    h2 {
+      font-size: 2.5em;
+      text-align: center;
+    }
+  }
+  
+  .contenido-superpuesto p {
+    font-size: 1.5em;
+  }
+  
+  .flex-container {
+    margin-top: 10px;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 90px;
+  
+    h2 {
+      color: #fff;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  
+    h4 {
+      color: #fff;
+      text-align: center;
+      font-family: "Poppins";
+      font-size: 1em;
+      font-weight: 500;
+      line-height: normal;
+    }
+  
+    p {
+      color: #fff;
+      font-family: Poppins;
+      font-size: 0.875rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-align: center;
+    }
+  }
+  

@@ -1,0 +1,370 @@
+@media screen and (min-width: 280px) and (max-width: 767px) {
+    .imagen-principal img {
+      height: 100vh;
+    }
+  
+    .contenido-superpuesto {
+      top: 74%;
+  
+      h1 {
+        font-size: 1.5em;
+      }
+  
+      p {
+        font-size: 1em;
+        margin-top: 1em;
+      }
+    }
+  
+    .button-style {
+      width: 15em;
+      height: 3.5em;
+    }
+  
+    .contenido-superpuesto-contacto p {
+      font-size: 14px;
+    }
+  
+    .card-container {
+      justify-content: space-around;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: nowrap;
+    }
+  
+    .card-section {
+      background-image: url(../imagenes/backgroundCeluServicios.png);
+      background-size: cover;
+    }
+  
+    .nosotros-section-index p {
+      padding-left: 40px;
+      padding-right: 40px;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+  
+    .imagen-nosotros1, .imagen-nosotros-tablet {
+      display: none;
+    }
+  
+    .contenedor {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-content: stretch;
+      justify-content: space-evenly;
+      margin-left: 0;
+    }
+  
+    .imagenServicios-backgroundImage {
+      position: relative;
+      width: 100%;
+      height: 70vh;
+      display: flex;
+      justify-content: right;
+      background-image: url(../imagenes/ServiciosPrinMobile.png);
+      background-position-x: left;
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .contenido-superpuesto-contacto {
+      margin-left: 32%;
+      margin-right: 10%;
+      margin-top: 70%;
+  
+      h2 {
+        font-size: 1.5em;
+        margin-left: 24%;
+        text-align: left;
+        margin-right: 15%;
+      }
+    }
+  
+    .contenido-superpuesto-servicios {
+      margin-left: 25%;
+      margin-right: 10%;
+      margin-top: 70%;
+  
+      h2 {
+        font-size: 1.5em;
+        margin-left: 24%;
+        text-align: left;
+        margin-right: 15%;
+      }
+    }
+  
+    .Texto-Destokp-Tablet {
+      display: none;
+    }
+  
+    .Texto-Mobile {
+      margin-left: 25%;
+      margin-right: 15%;
+      text-align: left;
+      font-size: 14px;
+    }
+  
+    .ServiciosSalesforce {
+      width: 100%;
+      margin-top: 0;
+    }
+  
+    .backgroundImage {
+      background-image: none;
+      background-color: #0b2e57;
+      background-size: contain;
+    }
+  
+    .flex-container {
+      margin-top: 2%;
+      display: flex;
+      padding-top: 0;
+      padding-bottom: 10px;
+      padding-right: 10%;
+      padding-left: 10%;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+    }
+  
+    .icono-container {
+      margin-right: 0%;
+    }
+  
+    .flex-container p {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  
+    .card-header {
+      h2 {
+        font-size: 1.5em;
+      }
+  
+      p {
+        font-size: 1em;
+      }
+    }
+  
+    .card p {
+      font-size: 0.8em;
+    }
+  
+    .img-customer-chica {
+      height: 40vh;
+      width: 100%;
+      background-image: url(../imagenes/customer360-chica.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-bottom: 10%;
+    }
+  
+    img, svg {
+      vertical-align: middle;
+      height: 65px;
+    }
+  
+    .nosotros-section {
+      padding: none;
+      height: none;
+      text-align: center;
+      background-image: none;
+      background-position: left;
+      background-repeat: no-repeat;
+      background-color: #0b2e57;
+    }
+  
+    .imagenFran {
+      background-image: url(../imagenes/FranCirculos.png);
+      padding: 20px 0;
+      height: 20em;
+      text-align: center;
+      flex-shrink: 0;
+      align-items: center;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .texto-ubicacion-nosotros {
+      width: 100%;
+    }
+  
+    .nosotros-section {
+      h2 {
+        color: #fff;
+        font-size: 25px;
+        margin-top: 10%;
+      }
+  
+      p {
+        font-size: 14px;
+        color: #fff;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 10%;
+      }
+    }
+  
+    .valores-header p {
+      font-size: 12px;
+      padding: 5px;
+    }
+  
+    .card-valores {
+      margin-bottom: 10px;
+      margin-top: 30px;
+    }
+  
+    textarea, input {
+      width: 22em;
+    }
+  
+    .contacto-section h2 {
+      font-size: 25px;
+    }
+  
+    select {
+      width: 22em;
+    }
+  
+    .imagenContacto-backgroundImage {
+      height: 70vh;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1399px) {
+    .imagen-principal img {
+      height: 100vh;
+    }
+  
+    .contenido-superpuesto {
+      h1 {
+        font-size: 2em;
+      }
+  
+      p {
+        font-size: 1em;
+      }
+  
+      top: 73%;
+    }
+  
+    .button-style {
+      width: 15em;
+    }
+  
+    .card {
+      width: 30%;
+    }
+  
+    .card-container {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: nowrap;
+    }
+  
+    .card-container-tablet {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  
+    .imagen-nosotros1 {
+      display: none;
+    }
+  
+    .contenido-superpuesto-contacto, .contenido-superpuesto-servicios {
+      position: relative;
+      margin-left: 30%;
+      margin-right: 30%;
+      color: white;
+      margin-top: 410px;
+    }
+  
+    .imagenServicios-backgroundImage {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: right;
+      background-image: url(../imagenes/ServiciosPrinTablet4.png);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  
+    .ServiciosSalesforce {
+      width: 65%;
+      margin-top: 17%;
+    }
+  
+    .flex-container {
+      padding-top: 2%;
+      padding-right: 10%;
+      display: flex;
+      margin-top: 0;
+      padding-bottom: 0;
+  
+      h2 {
+        display: none;
+      }
+    }
+  
+    .Texto-Mobile, .img-customer-chica {
+      display: none;
+    }
+  
+    .contenido-superpuesto-contacto, .contenido-superpuesto-servicios {
+      margin-left: 30%;
+      margin-right: 25%;
+      margin-top: 35%;
+    }
+  
+    .imagenContacto-backgroundImage {
+      height: 80vh;
+      background-position: center;
+      background-size: cover;
+    }
+  
+    textarea {
+      width: 30em;
+    }
+  
+    .nosotros-section p {
+      margin-left: 0;
+      margin-top: 0;
+      padding-left: 0;
+      padding-right: 0;
+      font-size: 14px;
+    }
+  
+    .texto-ubicacion-nosotros {
+      width: 50%;
+      transform: translate(97%, -33px);
+    }
+  
+    .nosotros-section {
+      height: 36em;
+    }
+  }
+  @media screen and (min-width: 1400px) {
+    .imagen-nosotros-tablet, .Texto-Mobile, .img-customer-chica, .flex-container h2 {
+      display: none;
+    }
+  }
+    
