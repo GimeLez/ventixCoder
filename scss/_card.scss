@@ -12,7 +12,7 @@
     margin-bottom: 1.87em;
   
     h2 {
-      color: $color-primario0b2e57;
+      color: $color-primario;
       font-family: "Poppins";
       font-size: 32px;
       font-style: normal;
@@ -21,7 +21,7 @@
     }
   
     p {
-      color: #01affb;
+      color: $color-secundario;
       text-align: center;
       font-family: "Poppins";
       font-size: 20px;
@@ -37,7 +37,7 @@
   }
   
   .card {
-    background-color: #fff;
+    background-color: $color-blanco;
     width: 315.658px;
     height: 380px;
     flex-shrink: 0;
@@ -47,7 +47,7 @@
     margin-bottom: 20px;
   
     h3 {
-      color: #0b2e57;
+      color: $color-primario;
       font-family: "Poppins";
       font-size: 20px;
       font-style: normal;
@@ -57,7 +57,7 @@
   
     p {
       margin-top: 50px;
-      color: #0b2e57;
+      color: $color-primario;
       text-align: center;
       font-family: "Poppins";
       font-size: 16px;
