@@ -16,12 +16,13 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-  }
-  .imagen-principal img {
-    width: 100%;
-    height: auto;
-    -o-object-fit: cover;
-       object-fit: cover;
+  
+    img {
+      width: 100%;
+      height: auto;
+      -o-object-fit: cover;
+      object-fit: cover;
+    }
   }
   
   .contenido-superpuesto {
@@ -30,15 +31,18 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: $color-blanco;
-  }
-  .contenido-superpuesto h1 {
-    font-size: 2.5em;
-  }
-  .contenido-superpuesto p {
-    font-size: 1.5em;
+    color: fff;
+  
+    h1 {
+      font-size: 2.5em;
+    }
+  
+    p {
+      font-size: 1.5em;
+    }
   }
   
   section {
     margin-top: 4em;
   }
+  
