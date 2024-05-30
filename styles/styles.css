@@ -535,6 +535,45 @@ footer {
 .navbar-nav .nav-link.active {
   color: #00b2ff;
 }
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.galeria-item {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.galeria-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+
+.proyectos h2 {
+  color: #0b2e57;
+  font-family: "Poppins";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+
+.proyectos p{
+  color: #01affb;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
 
 @media screen and (min-width: 280px) and (max-width: 767px) {
   .imagen-principal img {
@@ -739,6 +778,14 @@ footer {
     background-position: center;
     background-size: cover;
   }
+  .galeria {
+    grid-template-columns: 1fr;  
+}
+
+.galeria-item {
+    margin: 0 auto; 
+    max-width: 90%; 
+}
 }
 @media screen and (min-width: 768px) and (max-width: 1399px) {
   .imagen-principal img {
@@ -836,7 +883,14 @@ footer {
   .nosotros-section {
     height: 36em;
   }
+  .galeria {
+    grid-template-columns: 1fr;  
+}
 
+.galeria-item {
+    margin: 0 auto; 
+    max-width: 90%; 
+}
   
 }
 @media screen and (min-width: 1400px) {
