@@ -94,7 +94,7 @@ section {
 
 .card-section {
   background-color: #f9f9f9;
-  background-image: url(../imagenes/lineaspuntos.png);
+  background-image: url(../imagenes/lineas-puntos.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -261,7 +261,7 @@ select {
   text-align: center;
   flex-shrink: 0;
   align-items: center;
-  background-image: url(../imagenes/rectanguloConCiruculosYlineas.png);
+  background-image: url(../imagenes/rectangulo-con-ciruculos-y-lineas.png);
   background-position: left;
   background-repeat: no-repeat;
   background-size: contain;
@@ -295,7 +295,7 @@ select {
 
 .valores-section {
   background-color: #01affb;
-  background-image: url(../imagenes/lineasBlancasimg.png);
+  background-image: url(../imagenes/lineas-blancas-img.png);
   padding: 50px 0;
   text-align: center;
 }
@@ -339,7 +339,7 @@ select {
 }
 
 .imagenFran {
-  background-image: url(../imagenes/FranCirculos.png);
+  background-image: url(../imagenes/fran-circulos.png);
   padding: 50px 0;
   height: 48.75em;
   text-align: center;
@@ -411,10 +411,10 @@ select {
 }
 
 .backgroundImage {
-  background-image: url(../imagenes/customer360img.png);
+  background-image: url(../imagenes/customer-360-img.png);
   background-position: right;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .imagenServicios-backgroundImage {
@@ -423,10 +423,10 @@ select {
   height: 100vh;
   display: flex;
   justify-content: right;
-  background-image: url(../imagenes/imagenServiciosPrincipal.png);
-  background-position: right;
+  background-image: url(../imagenes/imagen-servicios-principal.png);
+  background-position: left;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .icono-center {
@@ -439,10 +439,10 @@ select {
   height: 100vh;
   display: flex;
   justify-content: right;
-  background-image: url(../imagenes/PrincipalContacto.png);
-  background-position: right;
+  background-image: url(../imagenes/principal-contacto.png);
+  background-position: left;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .icono-center {
@@ -451,7 +451,7 @@ select {
 
 .contacto-section {
   background-color: #01affb;
-  background-image: url(../imagenes/lineasBlancasimg.png);
+  background-image: url(../imagenes/lineas-blancas-img.png);
   padding: 50px 0;
   text-align: center;
 }
@@ -603,7 +603,7 @@ footer {
     flex-wrap: nowrap;
   }
   .card-section {
-    background-image: url(../imagenes/backgroundCeluServicios.png);
+    background-image: url(../imagenes/background-mobile-servicios.png);
     background-size: cover;
   }
   .nosotros-section-index p {
@@ -635,7 +635,7 @@ footer {
     height: 70vh;
     display: flex;
     justify-content: right;
-    background-image: url(../imagenes/ServiciosPrinMobile.png);
+    background-image: url(../imagenes/servicios-prin-mobile.png);
     background-position-x: left;
     background-position: top;
     background-repeat: no-repeat;
@@ -711,7 +711,7 @@ footer {
   .img-customer-chica {
     height: 40vh;
     width: 100%;
-    background-image: url(../imagenes/customer360-chica.png);
+    background-image: url(../imagenes/customer-360-chica.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -731,7 +731,7 @@ footer {
     background-color: #0b2e57;
   }
   .imagenFran {
-    background-image: url(../imagenes/FranCirculos.png);
+    background-image: url(../imagenes/fran-circulos.png);
     padding: 20px 0;
     height: 20em;
     text-align: center;
@@ -835,7 +835,7 @@ footer {
     height: 100vh;
     display: flex;
     justify-content: right;
-    background-image: url(../imagenes/ServiciosPrinTablet4.png);
+    background-image: url(../imagenes/servicios-prin-tablet.png);
     background-position: center;
     background-repeat: no-repeat;
   }
