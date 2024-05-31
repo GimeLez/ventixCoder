@@ -647,8 +647,8 @@ footer {
     margin-right: 10%;
     margin-top: 70%;
   }
-  .contenido-superpuesto-contacto h2 {
-    font-size: 1.5em;
+  .contenido-superpuesto-contacto h1 {
+    font-size: 1.5em !important; 
     margin-left: 24%;
     text-align: left;
     margin-right: 15%;
@@ -658,7 +658,7 @@ footer {
     margin-right: 10%;
     margin-top: 70%;
   }
-  .contenido-superpuesto-servicios h2 {
+  .contenido-superpuesto-servicios h1 {
     font-size: 1.5em;
     margin-left: 24%;
     text-align: left;
@@ -842,7 +842,7 @@ footer {
   }
   .ServiciosSalesforce {
     width: 65%;
-    margin-top: 17%;
+    margin-top: 8%;
   }
   .flex-container {
     padding-top: 2%;
