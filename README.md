@@ -6,6 +6,7 @@ Wireframes :
 Link a figma : https://www.figma.com/design/ysNEDnIIMcRahbUIWwMbnE/Proyecto-Desarrollo-Web-%2F-Ventix?node-id=0-1&t=c9ZekCGykmDtE2iR-1
 
 Estructura del Proyecto
+
 El proyecto está estructurado de la siguiente manera:
 
 index.html: Página principal que incluye una imagen destacada, una breve introducción a nuestros servicios y un enlace a la sección de contacto.
