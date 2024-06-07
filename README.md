@@ -3,6 +3,7 @@ Ventix Solutions
 Ventix Solutions es una consultora dedicada a ofrecer soluciones integrales para la optimización y gestión de procesos de negocio utilizando Salesforce. Nuestra página web proporciona información sobre nuestros servicios, equipo, oportunidades de trabajo y formas de contacto.
 
 Wireframes :
+
 Link a figma : https://www.figma.com/design/ysNEDnIIMcRahbUIWwMbnE/Proyecto-Desarrollo-Web-%2F-Ventix?node-id=0-1&t=c9ZekCGykmDtE2iR-1
 
 Estructura del Proyecto
