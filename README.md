@@ -28,6 +28,9 @@ scripts/: Directorio para archivos JavaScript si se requieren en el futuro.
 Tecnologías Utilizadas
 
 HTML5: Para la estructura y contenido del sitio.
+
 CSS3: Para el diseño y estilo del sitio.
+
 Bootstrap 5.3.3: Para el diseño responsivo y componentes de UI.
+
 AOS (Animate On Scroll): Para animaciones al desplazarse por la página.
